@@ -2,11 +2,11 @@ body {
     background: #262A10;
 }
 .logo{
-    width: 200px;
-    height: 180px;
+    width: 240px;
+    height: 210px;
     margin-left: 200px;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     border-radius: 10px;
 }
 nav {
