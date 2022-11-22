@@ -1,0 +1,30 @@
+body {
+    background: #262A10;
+}
+.logo{
+    width: 200px;
+    height: 180px;
+    margin-left: 200px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+nav {
+    background-image: url(https://images.pexels.com/photos/326333/pexels-photo-326333.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    
+}
+
+nav a {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 200%;
+    padding: 15px 50px;
+    box-sizing: 50px;
+    display: inline-block;
+}
+
+nav a:hover{
+    background: rgba(255, 255, 255, 0.267);
+
+}
