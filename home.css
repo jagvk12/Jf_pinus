@@ -11,6 +11,9 @@ body {
 }
 nav {
     background-image: url(https://images.pexels.com/photos/326333/pexels-photo-326333.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    padding:10px;
+    display:flex;
+    justify-content: center;
     
 }
 
@@ -20,7 +23,6 @@ nav a {
     color: white;
     font-size: 200%;
     padding: 15px 50px;
-    box-sizing: 50px;
     display: inline-block;
 }
 
