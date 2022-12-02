@@ -4,7 +4,7 @@ body {
 .logo{
     width: 240px;
     height: 210px;
-    margin-left: 200px;
+    margin-left: 100px;
     margin-top: 10px;
     margin-bottom: 10px;
     border-radius: 10px;
@@ -29,4 +29,41 @@ nav a {
 nav a:hover{
     background: rgba(255, 255, 255, 0.267);
 
+}
+
+.hero {
+    margin-top: 20px;
+    width: 100vw;
+    
+    
+}
+
+footer{
+    background-color: #283618;
+    color:white;
+    padding: 25px 50px;
+    padding-top: 15px;
+    margin-top: 200px;
+}
+
+footer p {
+    font-size: 1.5em;
+    text-decoration: underline;    
+}
+
+.site{
+    color:white;
+    font-size: 150%;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+.site:hover{
+    color: darkgoldenrod;
+}
+
+.contact{
+    color: white;
+    font-size: 150%;
+    text-decoration: none;
 }
