@@ -67,3 +67,6 @@ footer p {
     font-size: 150%;
     text-decoration: none;
 }
+.site:hover{
+    color: darkgoldenrod;
+}
