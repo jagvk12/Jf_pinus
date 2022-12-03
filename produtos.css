@@ -40,11 +40,14 @@ nav a:hover{
 
 
 .grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(auto-fit, 300px);
+    grid-template-rows: repeat(auto-fill,1fr);
+    justify-content: center;
     margin-top: 50px;
     color:white;
-    display:grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+   
 }
 .producto:hover{
     background: rgba(212, 109, 25, 0.267);

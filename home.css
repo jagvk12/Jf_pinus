@@ -12,6 +12,12 @@ body {
 .logo:hover{
     background: rgba(255, 255, 255, 0.144);   
 }
+
+h1 {
+    text-decoration: none;
+    color:white;   
+}
+
 nav {
     background-image: url(https://images.pexels.com/photos/326333/pexels-photo-326333.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
     padding:10px;
@@ -37,6 +43,7 @@ nav a:hover{
 .hero {
     margin-top: 20px;
     width: 100vw;
+    height: auto;
     
     
 }
