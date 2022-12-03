@@ -1,0 +1,15 @@
+body {
+    background: #262A10;
+}
+.logo{
+    width: 240px;
+    height: 210px;
+    margin-left: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+h1 {
+    text-decoration: none;
+    color:white;    
+}

@@ -9,6 +9,9 @@ body {
     margin-bottom: 10px;
     border-radius: 10px;
 }
+.logo:hover{
+    background: rgba(255, 255, 255, 0.144);   
+}
 nav {
     background-image: url(https://images.pexels.com/photos/326333/pexels-photo-326333.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
     padding:10px;
@@ -27,7 +30,7 @@ nav a {
 }
 
 nav a:hover{
-    background: rgba(255, 255, 255, 0.267);
+    background: rgba(255, 255, 255, 0.164);
 
 }
 
