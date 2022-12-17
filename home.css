@@ -1,12 +1,27 @@
+
+div.head {
+    display:flex;
+    flex-direction: row;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+img.whatsapp-button{
+    flex-grow: 1;
+    flex-shrink: 1;
+    order: 2;
+    width: 270px;
+    height: 100px;
+}
+
 body {
     background: #262A10;
 }
-.logo{
+ img.logo{
+    flex-grow: 1;
+    flex-shrink: 1;
+    order: 0;
     width: 180px;
     height: 160px;
-    margin-left: 100px;
-    margin-top: 10px;
-    margin-bottom: 10px;
     border-radius: 10px;
 }
 .logo:hover{
@@ -14,8 +29,10 @@ body {
     height: 170px;
     background: rgba(255, 255, 255, 0.075);   
 }
-
-h1 {
+.h1 {
+    flex-grow: 1;
+    flex-shrink: 1;
+    order:1;
     text-decoration: none;
     color:white;   
 }
@@ -65,7 +82,7 @@ article{
     background: #283618;
 }
 
-footer{
+footer.footer {
     background-color: #283618;
     color:white;
     padding: 25px 50px;
@@ -73,11 +90,18 @@ footer{
     margin-top: 200px;
 }
 
-footer p {
-    font-size: 1.5em;
-    text-decoration: none;
-    text-align: center;
-
+.tw {
+    width: 80px;
+    height: 80px;
+    
+}
+.fb{
+    width: 80px;
+    height: 80px;
+}
+.in{
+    width: 80px;
+    height: 80px; 
 }
 
 .logo_f{
@@ -85,7 +109,7 @@ footer p {
     height: 160px;
     position: absolute;
     margin-left: 450px;
-    
+    border-radius: 10px;
 }
 
 .logo_f:hover{
@@ -94,13 +118,7 @@ footer p {
     background: rgba(255, 255, 255, 0.075);   
 }
 
-.logoj{
-    width: 100px;
-    height: 100px;
-    margin-left: 450px;
-    margin-bottom: 20px;
-    position: absolute;
-}
+
 
 .site{
     color:white;
@@ -121,3 +139,31 @@ footer p {
 .contact:hover{
     color: darkgoldenrod;
 }
+
+.derechos p{
+    color: white;
+    font-size: 20px;
+    padding-top: 5px;
+}
+footer.derechos{
+    margin: 100px 0px 0px 0px;
+    background: #283618;
+    display:flex;
+    justify-content:center;
+    
+}
+div.copy{
+    display: inline-block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    padding:15px 20px;
+    
+}
+
+.logoj{
+    flex-grow: 1;
+    flex-shrink: 1;
+    width: 100px;
+    height: 100px;
+}
+
