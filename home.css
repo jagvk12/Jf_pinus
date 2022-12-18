@@ -2,13 +2,11 @@
 div.head {
     display:flex;
     flex-direction: row;
-    align-items: stretch;
     flex-wrap: wrap;
 }
 img.whatsapp-button{
-    flex-grow: 1;
+    flex-grow: 0;
     flex-shrink: 1;
-    order: 2;
     width: 270px;
     height: 100px;
 }
@@ -19,7 +17,6 @@ body {
  img.logo{
     flex-grow: 1;
     flex-shrink: 1;
-    order: 0;
     width: 180px;
     height: 160px;
     border-radius: 10px;
@@ -32,7 +29,6 @@ body {
 .h1 {
     flex-grow: 1;
     flex-shrink: 1;
-    order:1;
     text-decoration: none;
     color:white;   
 }
@@ -51,7 +47,6 @@ nav a {
     color: white;
     font-size: 200%;
     padding: 15px 50px;
-    display: inline-block;
 }
 
 nav a:hover{
@@ -62,21 +57,18 @@ nav a:hover{
 .hero {
     margin-top: 20px;
     width: 100vw;
-    height: auto;
-    
-    
+    height: auto;    
 }
 
 article h1{
-    text-align: center;
+   
     text-decoration: underline;
     color: white;
 }
 
 article p{
     text-align: justify;
-    color: white;
-    
+    color: white;   
 }
 article{
     background: #283618;
@@ -92,8 +84,7 @@ footer.footer {
 
 .tw {
     width: 80px;
-    height: 80px;
-    
+    height: 80px;   
 }
 .fb{
     width: 80px;
@@ -153,7 +144,6 @@ footer.derechos{
     
 }
 div.copy{
-    display: inline-block;
     flex-grow: 0;
     flex-shrink: 1;
     padding:15px 20px;

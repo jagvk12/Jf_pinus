@@ -1,3 +1,15 @@
+div.head {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+img.whatsapp-button{
+    flex-grow: 1;
+    flex-shrink: 1;
+    order: 2;
+    width: 270px;
+    height: 100px;
+}
 body {
     background: #262A10;
 }
@@ -15,9 +27,11 @@ body {
     background: rgba(255, 255, 255, 0.075);   
 }
 
-h1 {
+.h1 {
+    flex-grow: 1;
+    flex-shrink: 1;
     text-decoration: none;
-    color:white;    
+    color:white;   
 }
 nav {
     background-image: url(https://images.pexels.com/photos/326333/pexels-photo-326333.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
@@ -33,7 +47,7 @@ nav a {
     color: white;
     font-size: 200%;
     padding: 15px 50px;
-    display: inline-block;
+   
 }
 
 nav a:hover{
@@ -135,7 +149,6 @@ footer.derechos{
     
 }
 div.copy{
-    display: inline-block;
     padding:15px 20px;
     
 }
